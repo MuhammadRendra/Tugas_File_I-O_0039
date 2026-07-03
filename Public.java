@@ -1,0 +1,6 @@
+/**
+ * Public
+ */
+public class Public {
+
+}
