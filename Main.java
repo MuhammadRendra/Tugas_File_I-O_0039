@@ -4,9 +4,9 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         List<Anggota> daftar = new ArrayList<>();
-        daftar.add(new Dosen("Pak Rangga", "2643"));
-        daftar.add(new Mahasiswa("Rendra", "0039"));
-        daftar.add(new Mahasiswa("Doni", "0099"));
+        daftar.add(new Dosen("Pak Rangga", "D2643"));
+        daftar.add(new Mahasiswa("Rendra", "M0039"));
+        daftar.add(new Mahasiswa("Doni", "M0099"));
 
         AnggotaFileIO.simpanAnggota(daftar, "Data_Anggota.txt");
 
